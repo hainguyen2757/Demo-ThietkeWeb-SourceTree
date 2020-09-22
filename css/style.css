@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+.navbg{
+	background-color:#336
+	}
+.navbar.navbar-expand-lg.navbar-dark.navbg .container #navbarSupportedContent .form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0 {
+	color:#FFF;
+	border-color:#6FF
+}
+.container.mt-3 .row .col-12 #carouselExampleControls .carousel-inner .carousel-item .carousel-caption.d-none.d-md-block {
+	color:#000;
+	font-weight:bold
+}
+
+.btn-outline-success:hover{
+	background-color:#3CF
+	}
+
+body{
+	background-color:#B3F3FB
+}
+.headline{
+	color: #F1C941;
+    font-weight: lighter;
+    text-shadow: 0px 0px #FF0004;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    font-size: 36px;
+	text-align: center !important;
+    font-family: "WizardWorldSimplified Kxr7";
+	border-radius: 10px;
+	border: solid #ECECEC;
+}
+
+.card{
+    border-radius:3rem;
+    
+}
+.card-img-top {
+  width: 100%;
+  border-top-left-radius: calc(3rem - 1px);
+  border-top-right-radius: calc(3rem - 1px);
+}
+
+.media{
+    font-family: "WizardWorldSimplified Kxr7";
+}
+
+.logo-hover:hover{
+    transition: transform .5s;
+    transform: scale(5.5);
+    z-index: 99;
+    position: relative;
+}
+.img-text-hover:hover{
+    transition: transform .5s;
+    transform: scale(3.5);
+    z-index: 99;
+    position: relative;
+}
+
+.link-blacked{
+    color:black;
+    text-decoration: none;
+    background-color: none;
+}
+.rounded-circle-1{
+    border-color: #FF021A;
+    border-style: dotted;
+    border-width: thick;
+    border-radius: 50%
+}
+<script>
+function myFunction() {
+  document.getElementById("hearted").style.background-color = "red";
+}
+.fa{
+    user-select: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: none;
+}
+.btn-hover:hover{
+    color:#FF0000;
+}
+.fa-heart{
+    color:blue;
+}
+.font-wizard{
+    font-family: "WizardWorldSimplified Kxr7";
+}
+.btn-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: bottom;
+}
+.img-text-hover-2:hover{
+    transition: transform .2s;
+    transform: scale(2.5);
+    z-index: 99;
+    position: relative;
+}
+
+.awesome {
+      width:100%;
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+    }
+    @-webkit-keyframes colorchange {
+      0% {color: blue;}
+      10% {color: #8e44ad;}
+      20% {color: #1abc9c;}
+      30% {color: #d35400;}
+      40% {color: yellow;}
+      50% {color: #34495e;}
+      60% {color: red;}
+      70% {color: #2980b9;}
+      80% {color: #f1c40f;}
+      90% {color: #2980b9;}
+      100% {color: pink;}
+    }
+
+.fa-star{
+    color: #EBE205 !important;
+}
+h4{font-family: "WizardWorldSimplified Kxr7";}
